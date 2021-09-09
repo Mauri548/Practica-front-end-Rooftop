@@ -1,0 +1,126 @@
+.conteiner-welcome .title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 60px;
+    color: #fff;
+}
+.conteiner-welcome .description {
+    margin: 15px 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5em;
+}
+.description2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-grey {
+    color: rgba(244,244,244,0.5);
+}
+.description2 .bookmark {
+    display: flex;
+    align-items: center;
+}
+.description2 .bookmark-text {
+    margin-left: 10px;
+}
+.conteiner-detalle {
+    width: 95%;
+    margin: 25px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
+}
+.conteiner-detalle .card .conteiner-img {
+    width: 97%;
+    margin: auto;
+    padding: 5px;
+}
+.card-body {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.card-body .price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+}
+.card-body .price-del {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a8a3b9;
+    text-decoration: line-through;
+}
+.buttons {
+    display: flex;
+}
+.btn-morado, .btn-blanco {
+    width: 100%;
+    margin: 5px 0;
+}
+.btn-morado {
+    color: #fff;
+    background-color: #754ffe;
+    border-color: #754ffe;
+}
+.btn-morado:hover {
+    cursor: pointer;
+    background-color: #6343d8;
+    border-color: #5e3fcb
+}
+.btn-blanco {
+    background-color: #fff;
+    color: #754ffe;
+    border-color: #754ffe;
+}
+.btn-blanco:hover {
+    cursor: pointer;
+    background-color: #754ffe;
+    border-color: #754ffe;
+    color: #fff
+}
+.card-included {
+    width: 95%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
+}
+.card-included-item {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.card-included-item-icon {
+    width: 2em;
+}
+.card-included-title {
+    font-weight: 400;
+}
+.card-included-text {
+    font-size: 1em;
+}
+.line {
+    border-bottom: 1px solid #ecebf1;
+}
+
+/* Color icon */
+.fa-play-circle {
+    color: rgb(117,79,254)
+}
+.fa-award {
+    color: rgb(25,203,152)
+}
+.fa-calendar {
+    color: rgb(41,186,249)
+}
+.card-included-item-icon .fa-video {
+    color: rgb(121,117,143)
+}
+.fa-clock {
+    color: rgb(255,170,70)
+}
