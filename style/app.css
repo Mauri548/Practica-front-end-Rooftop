@@ -10,6 +10,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f5f4f8;
 }
+a {
+    text-decoration: none;
+}
 
 .text-violet {
     color: #18113c
@@ -32,6 +35,9 @@ body {
 }
 .d-flex {
     display: flex;
+}
+.align-items-center {
+    align-items: center;
 }
 
 /* Estilos del Navbar */
@@ -192,7 +198,6 @@ li {
 .label-btn-menu{
     display: flex;
     flex-direction: column;
-    width: 20px;
     margin-left: 10px;
     padding: .5rem;
     border: 1px solid #754ffe;

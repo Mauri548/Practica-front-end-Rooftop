@@ -1,3 +1,6 @@
+.conteiner-welcome {
+    padding-bottom: 100px;
+}
 .conteiner-welcome .title {
     font-size: 2.5rem;
     font-weight: 600;
@@ -16,6 +19,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 14px;
+}
+.view p, .stars p {
+    margin-left: 10px;
 }
 .icon-grey {
     color: rgba(244,244,244,0.5);
@@ -99,9 +106,11 @@
     width: 2em;
 }
 .card-included-title {
+    margin: 15px 0px;
     font-weight: 400;
 }
 .card-included-text {
+    margin: 15px 0px;
     font-size: 1em;
 }
 .line {
@@ -123,4 +132,63 @@
 }
 .fa-clock {
     color: rgb(255,170,70)
+}
+
+.theme {
+    width: 95%;
+    margin: auto;
+    margin-top: -65px;
+    padding: 25px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgb(3 0 71 / 9%);
+}
+.theme-conteiner-list {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.theme-conteiner-list:hover, .theme-conteiner-list:hover > .theme-conteiner-item{
+    color: #5e3fcb;
+    cursor: pointer;
+}
+.theme-conteiner-item {
+    font-weight: 500;
+}
+/* .theme-conteiner-item:hover {
+    color: #5e3fcb
+} */
+
+@media (min-width: 1024px) {
+    .conteiner-welcome {
+        margin: 0;
+        padding: 5em;
+        width: 60%;
+    }
+    .conteiner-welcome .title {
+        margin-top: 0px;
+    }
+    .description2 .view, .description2 .stars {
+        display: flex;
+        align-items: center
+    }
+    .description2 .view p, .description2 .stars p {
+        margin-left: 10px;
+    }
+    .div-theme {
+        display: flex;
+        align-items: flex-start;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .theme {
+        margin-top: 25px;
+        width: 60%;
+    }
+    .conteiner-section {
+        margin-top: -150px;
+        width: 30%;
+    }
 }
