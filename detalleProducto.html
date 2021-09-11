@@ -48,11 +48,24 @@
                         <img class="perfil" src="https://codescandy.com/geeks-bootstrap-5/assets/images/avatar/avatar-1.jpg" width="45" alt="">
                     </li>
                 </ul>
-                <!-- <button class="menu-hamburgesa">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button> -->
+                <div>
+                    <input type="checkbox" id="btn-menu">
+                    <label for="btn-menu" class="label-btn-menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </label>
+                    <nav class="m">
+                        <ul>
+                            <li class="m-item">
+                                <a class="m-item-link" href="">Home</a>
+                            </li>
+                            <li class="m-item">
+                                <a class="m-item-link" href="">Products</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </nav>
     </header>
@@ -99,44 +112,192 @@
             <div class="theme-conteiner">
                 <ul>
                     <li class="theme-conteiner-list line">
-                        <a class="theme-conteiner-item text-violet" href="#">Introduction to JavaScript</a>
-                        <i class="fas fa-chevron-down"></i>
+                        <a class="theme-conteiner-item text-violet" href="#">Introduction to JavaScript
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        
+                        <ul class="theme-conteiner-item-subitem">
+                            <li class="theme-conteiner-item-subitem-conteiner">
+                                <a href="#" class="theme-conteiner-subitem-play">
+                                    <div class="theme-conteiner-subitem-play-cont">
+                                        <span class="icon-play">
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                        <p class="little-text-theme">Introduction</p>
+                                    </div>
+                                    <p class="little-text-theme">1m 7s</p>
+                                </a>
+                            </li>
+                            <li class="theme-conteiner-item-subitem-conteiner">
+                                <a href="#" class="theme-conteiner-subitem-play">
+                                    <div class="theme-conteiner-subitem-play-cont">
+                                        <span class="icon-play">
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                        <p class="little-text-theme">Installing Development Software</p>
+                                    </div>
+                                    <p class="little-text-theme">3m 11s</p>
+                                </a>
+                            </li>
+                            <li class="theme-conteiner-item-subitem-conteiner">
+                                <a href="#" class="theme-conteiner-subitem-play">
+                                    <div class="theme-conteiner-subitem-play-cont">
+                                        <span class="icon-play">
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                        <p class="little-text-theme">Hello World Project from GitHub</p>
+                                    </div>
+                                    <p class="little-text-theme">2m 33s</p>
+                                </a>
+                            </li>
+                            <li class="theme-conteiner-item-subitem-conteiner">
+                                <a href="#" class="theme-conteiner-subitem-play">
+                                    <div class="theme-conteiner-subitem-play-cont">
+                                        <span class="icon-play">
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                        <p class="little-text-theme">Our Sample Website</p>
+                                    </div>
+                                    <p class="little-text-theme">2m 15s</p>
+                                </a>
+                            </li>
+
+                        </ul>
                     </li>
                     <li class="theme-conteiner-list line">
-                        <a class="theme-conteiner-item text-violet" href="#">JavaScript Beginning</a>
-                        <i class="fas fa-chevron-down"></i>
+                        <a class="theme-conteiner-item text-violet" href="#">JavaScript Beginning
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="theme-conteiner-item-subitem">
+                            <li class="theme-conteiner-item-subitem-conteiner">
+                                <a href="#" class="theme-conteiner-subitem-play">
+                                    <div class="theme-conteiner-subitem-play-cont">
+                                        <span class="icon-play">
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                        <p class="little-text-theme">Introduction</p>
+                                    </div>
+                                    <p class="little-text-theme">1m 41s</p>
+                                </a>
+                            </li>
+                            <li class="theme-conteiner-item-subitem-conteiner">
+                                <a href="#" class="theme-conteiner-subitem-play">
+                                    <div class="theme-conteiner-subitem-play-cont">
+                                        <span class="icon-play">
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                        <p class="little-text-theme">Adding JavaScript Code to a Web Page</p>
+                                    </div>
+                                    <p class="little-text-theme">3m 39s</p>
+                                </a>
+                            </li>
+                            <li class="theme-conteiner-item-subitem-conteiner">
+                                <a href="#" class="theme-conteiner-subitem-play">
+                                    <div class="theme-conteiner-subitem-play-cont">
+                                        <span class="icon-play">
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                        <p class="little-text-theme">Working whit JavaScript Files</p>
+                                    </div>
+                                    <p class="little-text-theme">6m 18s</p>
+                                </a>
+                            </li>
+                            <li class="theme-conteiner-item-subitem-conteiner">
+                                <a href="#" class="theme-conteiner-subitem-play">
+                                    <div class="theme-conteiner-subitem-play-cont">
+                                        <span class="icon-play">
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                        <p class="little-text-theme">Formatting Code</p>
+                                    </div>
+                                    <p class="little-text-theme">2m 18s</p>
+                                </a>
+                            </li>
+                            <li class="theme-conteiner-item-subitem-conteiner">
+                                <a href="#" class="theme-conteiner-subitem-play">
+                                    <div class="theme-conteiner-subitem-play-cont">
+                                        <span class="icon-play">
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                        <p class="little-text-theme">Detecting and Fixing Errors</p>
+                                    </div>
+                                    <p class="little-text-theme">3m 14s</p>
+                                </a>
+                            </li>
+                            <li class="theme-conteiner-item-subitem-conteiner">
+                                <a href="#" class="theme-conteiner-subitem-play">
+                                    <div class="theme-conteiner-subitem-play-cont">
+                                        <span class="icon-play">
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                        <p class="little-text-theme">Case Sensitivity</p>
+                                    </div>
+                                    <p class="little-text-theme">1m 48s</p>
+                                </a>
+                            </li>
+                            <li class="theme-conteiner-item-subitem-conteiner">
+                                <a href="#" class="theme-conteiner-subitem-play">
+                                    <div class="theme-conteiner-subitem-play-cont">
+                                        <span class="icon-play">
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                        <p class="little-text-theme">Commenting Code</p>
+                                    </div>
+                                    <p class="little-text-theme">2m 24s</p>
+                                </a>
+                            </li>
+                            <li class="theme-conteiner-item-subitem-conteiner">
+                                <a href="#" class="theme-conteiner-subitem-play">
+                                    <div class="theme-conteiner-subitem-play-cont">
+                                        <span class="icon-play">
+                                            <i class="fas fa-play"></i>
+                                        </span>
+                                        <p class="little-text-theme">Summary</p>
+                                    </div>
+                                    <p class="little-text-theme">2m 14s</p>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="theme-conteiner-list line">
-                        <a class="theme-conteiner-item text-violet" href="#">Variables and Constants</a>
-                        <i class="fas fa-chevron-down"></i>
+                        <a class="theme-conteiner-item text-violet" href="#">Variables and Constants
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
                     </li>
                     <li class="theme-conteiner-list line">
-                        <a class="theme-conteiner-item text-violet" href="#">Types and Operators</a>
-                        <i class="fas fa-chevron-down"></i>
+                        <a class="theme-conteiner-item text-violet" href="#">Types and Operators
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
                     </li>
                     <li class="theme-conteiner-list line">
-                        <a class="theme-conteiner-item text-violet" href="#">Program Flow</a>
-                        <i class="fas fa-chevron-down"></i>
+                        <a class="theme-conteiner-item text-violet" href="#">Program Flow
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
                     </li>
                     <li class="theme-conteiner-list line">
-                        <a class="theme-conteiner-item text-violet" href="#">Functions</a>
-                        <i class="fas fa-chevron-down"></i>
+                        <a class="theme-conteiner-item text-violet" href="#">Functions
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
                     </li>
                     <li class="theme-conteiner-list line">
-                        <a class="theme-conteiner-item text-violet" href="#">Objects and the DOM</a>
-                        <i class="fas fa-chevron-down"></i>
+                        <a class="theme-conteiner-item text-violet" href="#">Objects and the DOM
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
                     </li>
                     <li class="theme-conteiner-list line">
-                        <a class="theme-conteiner-item text-violet" href="#">Arrays</a>
-                        <i class="fas fa-chevron-down"></i>
+                        <a class="theme-conteiner-item text-violet" href="#">Arrays
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
                     </li>
                     <li class="theme-conteiner-list line">
-                        <a class="theme-conteiner-item text-violet" href="#">Scoped and Hoisting</a>
-                        <i class="fas fa-chevron-down"></i>
+                        <a class="theme-conteiner-item text-violet" href="#">Scoped and Hoisting
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
                     </li>
                     <li class="theme-conteiner-list">
-                        <a class="theme-conteiner-item text-violet" href="#">Summary</a>
-                        <i class="fas fa-chevron-down"></i>
+                        <a class="theme-conteiner-item text-violet" href="#">Summary
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
