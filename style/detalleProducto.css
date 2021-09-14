@@ -159,15 +159,16 @@
     color: #5e3fcb;
     cursor: pointer;
 }
+.theme-conteiner-item.active ~ .theme-conteiner-item-subitem {
+    display: block;
+}
 
-.theme-conteiner-item:hover ~ .theme-conteiner-item-subitem, .theme-conteiner-item-subitem:hover {
+/* .theme-conteiner-item:hover ~ .theme-conteiner-item-subitem, .theme-conteiner-item-subitem:hover {
     display: block;
     transition: all .5s ease;
 
-}
-/* .theme-conteiner-item-subitem:hover{
-    display: block;
 } */
+
 .theme-conteiner-item {
     font-weight: 500;
 
