@@ -1,43 +1,48 @@
 # ABOUT OBJECT HERE
 
+## Requeriments
+
+* Quiero una tienda de cursos <br>
+* Que los usuarios puedan ver un listado de cursos
+* Que puedan ver los videos de los cursos
+* Que puedan guardar el curso
+* Que puedan puntuar
+* Que los usuarios puedan logearse y cerrar sesion
+
+## Object hierarchy
+* Tienda  
+    * Usuario 
+    * Course 
+        * VideoCurso 
+    * Listado 
+
 ## Clases:
 
 | Course |
 | ------- |
-| - id <br> - name <br> - description <br> - level <br> - duration <br> - image <br> - price <br> - videos <br> - points |
-| + getters() <br> + setters() <br> + score() |
+| - id: Number <br> - name: String <br> - description: String <br> - level: String <br> - duration: Number <br> - image: String <br> - price: Number <br> - videos: Array <br> - points: Number |
+| + getters() <br> + setters() <br> + score(points: Number) -> Number |
 
 ---------------
 
 | Video |
 |-------|
-| - id <br> - duration |
+| - id: Number <br> - duration: Number |
 | + getters() <br> + setters() <br> + play() <br> + stop() |
 
 ---------------
 
 | User |
 |------|
-| - id <br> - username <br> - password <br> - favourites <br> - courses |
-| + getters <br> + setters <br> + logout() <br> + login() <br> + addCourse() <br> + addFavoutie() <br> + removeFavourite() |
+| - id: Number <br> - username: String <br> - password: String <br> - favourites: Array <br> - courses: Array <br> - state: Boolean |
+| + getters() <br> + setters() <br> + logout() <br> + login() <br> + addCourse(course: Course) <br> + addFavoutie(course: Course) <br> + removeFavourite(course: Course) |
 
 ---------------
 
 | List |
 |------|
-| - courses |
+| - courses: Array |
 
 
-quiero una tienda de cursos
-que los usuarios puedan ver un listado de cursos
-que puedan ver los videos de los cursos
-que puedan guardar el curso
-que puedan puntuar
-que los usuarios puedan logearse y cerrar sesion
 
 
-Tienda > 
-    Usuario >
-    Course >
-        VideoCurso >
-    Listado >
