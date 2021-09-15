@@ -26,3 +26,24 @@
     margin-top: 5px;
     margin-bottom: 5px
 }
+.input-error {
+    border: 1px solid red;
+}
+
+.conteiner-error {
+    position: absolute;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+    width: 100%;
+    background-color: #ec4444;
+    color: #fff;
+    padding: 10px;
+}
+.conteiner-error.active {
+    visibility: visible;
+    top: 0;
+    /* transform: translateY(0px); */
+    transition: all .3s ease;
+}
